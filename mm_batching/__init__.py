@@ -15,7 +15,7 @@ class Batcher:
         the resulting batches in a list.
         Logical means the batch itself does not modify the original data
         in any way, but metadata is computed to ensure proper preprocessing
-        downstream before passes into respective tokenizers.
+        downstream is possible before passes into any models.
         Specifically, a batch at a logical level is a dictionary of structure
         similar to the following
         ```
